@@ -19,6 +19,7 @@ public class UserController {
 	
 	@GetMapping("/users")
 	public ResponseEntity<?> getUsers() {
+		//return users
 		return ResponseEntity.status(HttpStatus.OK).body(userService.getUsers());
 	}
 }
