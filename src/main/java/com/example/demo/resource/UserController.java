@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.service.IUserService;
 
+/*
+* Controller class
+*/
 @RestController
 @RequestMapping("/demo")
 public class UserController {
