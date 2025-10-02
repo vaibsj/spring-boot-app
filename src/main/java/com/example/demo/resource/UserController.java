@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.service.IUserService;
 
 /*
-* Controller class
+*  User Controller resource
 */
 @RestController
 @RequestMapping("/demo")
